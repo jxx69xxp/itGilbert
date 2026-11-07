@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { overscroll-behavior: none; }
+main > :first-child { margin-top: 0 !important; }
+main > :last-child { margin-bottom: 0 !important; }
+::-webkit-scrollbar { display: none; }
+
+/* Flying drone (app/FlyingDrone.tsx) */
+.drone-flight {
+  position: fixed; top: 0; left: 0; z-index: 40; pointer-events: none;
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,.55)) drop-shadow(0 0 10px rgba(78,222,163,.18));
+  animation: drone-path 34s ease-in-out infinite;
+}
+.drone-body { display: block; animation: drone-bob 2.6s ease-in-out infinite; }
+.drone-rotor { transform-box: fill-box; transform-origin: center; animation: drone-spin .09s linear infinite alternate; }
+.drone-rotor-b { animation-delay: -.045s; }
+.drone-led { animation: drone-blink 1.4s steps(1) infinite; }
+.drone-led-b { animation-delay: -.7s; }
+.drone-lens { animation: drone-blink 3s steps(1) infinite; }
+
+@keyframes drone-path {
+  0%   { transform: translate(-140px, 34vh) rotate(7deg); }
+  20%  { transform: translate(30vw, 20vh) rotate(5deg); }
+  28%  { transform: translate(40vw, 17vh) rotate(-2deg); }
+  36%  { transform: translate(42vw, 18vh) rotate(0deg); }   /* hover, "filming" */
+  52%  { transform: translate(68vw, 10vh) rotate(6deg); }
+  66%  { transform: translate(calc(100vw + 140px), 24vh) rotate(8deg); }
+  100% { transform: translate(calc(100vw + 140px), 24vh) rotate(8deg); } /* pause off-screen */
+}
+@keyframes drone-bob { 50% { transform: translateY(-7px); } }
+@keyframes drone-spin { from { transform: scaleX(1); } to { transform: scaleX(.25); } }
+@keyframes drone-blink { 50% { opacity: .15; } }
+
+@media (max-width: 640px) { .drone-body { width: 84px; height: 45px; } }
+@media (prefers-reduced-motion: reduce) { .drone-flight { display: none; } }
