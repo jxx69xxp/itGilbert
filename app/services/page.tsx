@@ -73,7 +73,7 @@ export default function Services() {
 <span className="inline-block w-2 h-2 rounded-full bg-primary animate-ping"></span>
 <span className="text-primary tracking-widest uppercase">DISPATCH: ACTIVE PILOT ON-SITE</span>
 <span className="text-outline-variant">/</span>
-<span className="text-on-surface">LOC: MT. CAPISTRANO, BUKIDNON (610 MASL)</span>
+<span className="text-on-surface">LOC: MT. CAPISTRANO, SIMAYA, MALAYBALAY CITY (610 MASL)</span>
 </div>
 <div className="flex items-center gap-6">
 <span className="flex items-center gap-1.5"><span className="material-symbols-outlined text-[15px] text-tertiary">air</span> WIND RESIST: 12 M/S</span>
@@ -489,7 +489,7 @@ export default function Services() {
 <div className="max-w-7xl mx-auto rounded-xl bg-surface-container overflow-hidden shadow-xl">
 <div className="grid grid-cols-1 lg:grid-cols-12">
 <div className="lg:col-span-7 p-8 lg:p-12 space-y-6">
-<span className="font-label-technical text-label-technical uppercase tracking-widest text-primary">BASE OF OPERATIONS • SAN FERNANDO / MALAYBALAY</span>
+<span className="font-label-technical text-label-technical uppercase tracking-widest text-primary">SITIO BINALBAGAN • BRGY. SIMAYA • MALAYBALAY CITY</span>
 <h3 className="font-headline-lg text-headline-lg text-on-surface">How We Coordinate Your Climb</h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
             Mt. Capistrano stands out with its dramatic karst limestone rock monoliths. Hikes typically begin at Barangay Managok or San Fernando jump-off stations at 3:30 AM to catch the sunrise cloud sea inversion.
@@ -497,8 +497,8 @@ export default function Services() {
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
 <div className="p-4 rounded-xl bg-surface-container-low space-y-1">
 <span className="font-label-technical text-label-technical text-secondary uppercase">SUMMIT ELEVATION</span>
-<p className="font-headline-sm text-headline-sm text-on-surface">610m / 2,001 ft</p>
-<span className="font-body-sm text-body-sm text-on-surface-variant">Karst rock scramble near peak</span>
+<p className="font-headline-sm text-headline-sm text-on-surface">~610m / 2,000+ ft</p>
+<span className="font-body-sm text-body-sm text-on-surface-variant">1–2 hr ascent: 300+ stairs, bamboo trail, rope &amp; rock scramble</span>
 </div>
 <div className="p-4 rounded-xl bg-surface-container-low space-y-1">
 <span className="font-label-technical text-label-technical text-tertiary uppercase">RECOMMENDED FLIGHT WINDOW</span>

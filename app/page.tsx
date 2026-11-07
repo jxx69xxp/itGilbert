@@ -42,7 +42,7 @@ export default function Home() {
 <div className="flex items-center gap-6 overflow-x-auto whitespace-nowrap scrollbar-none">
 <div className="flex items-center gap-2 text-primary">
 <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-<span className="tracking-widest uppercase">SYS.LIVE: MT. CAPISTRANO SUMMIT 800M ASL</span>
+<span className="tracking-widest uppercase">SYS.LIVE: MT. CAPISTRANO SUMMIT 610M ASL</span>
 </div>
 <span className="text-outline-variant">/</span>
 <div className="flex items-center gap-2">
@@ -98,7 +98,7 @@ export default function Home() {
               Certified Mountain FPV &amp; Aerial Cinematographer
             </p>
 <h1 className="font-headline-lg lg:font-display-hero text-headline-lg lg:text-display-hero text-on-surface uppercase tracking-tight leading-none drop-shadow-2xl">
-              Capturing Peak Moments From <span className="text-secondary italic">3,000 Feet</span> Above.
+              Capturing Peak Moments From <span className="text-secondary italic">2,000 Feet</span> Above.
             </h1>
 </div>
 <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
@@ -157,7 +157,7 @@ export default function Home() {
 <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-surface font-label-technical text-label-technical">
 <span className="bg-surface-container-lowest/80 px-2.5 py-1 rounded backdrop-blur-md flex items-center gap-1.5">
 <span className="material-symbols-outlined text-secondary text-[14px]">my_location</span>
-                  Peak Pinnacle 793m
+                  Summit 610m
                 </span>
 <span className="bg-surface-container-lowest/80 px-2.5 py-1 rounded backdrop-blur-md text-primary">DJI O3 PRO</span>
 </div>
@@ -193,8 +193,8 @@ export default function Home() {
 </div>
 <div>
 <div className="font-label-technical text-label-technical uppercase text-on-surface-variant">Topographic Base</div>
-<div className="font-headline-sm text-headline-sm text-on-surface">Manolo Fortich &amp; San Fernando</div>
-<div className="font-body-sm text-body-sm text-secondary">Limestone Karst Formations</div>
+<div className="font-headline-sm text-headline-sm text-on-surface">Mt. Capistrano</div>
+<div className="font-body-sm text-body-sm text-secondary">Limestone Peak · Simaya, Malaybalay City</div>
 </div>
 </div>
 <div className="flex items-center gap-4 p-4 rounded-xl bg-surface-container">
